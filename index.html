@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Code Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate-fade-in">My Code Portfolio</h1>
+        <p class="animate-slide-in">Hi, I'm Tyronne</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#individual-projects">Individual Projects</a></li>
+            <li><a href="#team-projects">Team Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Tyronne Kimani, a passionate developer with a keen interest in coding and design. Here are some of the projects I've worked on during this course.</p>
+        </section>
+        
+        <section id="individual-projects">
+            <h2>Individual Projects</h2>
+            <div class="project" id="project-1">
+                <h3>Project 1: Restaurant Menu</h3>
+                <p>Description: Developed a restaurant website where users can browse the menu and make reservations.</p>
+                <p>Technologies Used: HTML, CSS, JavaScript</p>
+                <button onclick="showDetails('project-1')">View Details</button>
+                <div class="details" id="details-project-1">
+                    <p>Key Features: Online menu, reservation system, contact form.</p>
+                    <p>Challenges: Implemented responsive design and ensured cross-browser compatibility.</p>
+                    <div class="screenshots">
+                        <h4>Screenshots:</h4>
+                        <img src="screenshot1.png" alt="Screenshot 1">
+                        <img src="screenshot2.png" alt="Screenshot 2">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="team-projects">
+            <h2>Team Projects</h2>
+            <div class="project" id="project-2">
+                <h3>Project 2: Hospital Website</h3>
+                <p>Description: Worked with a team to develop a hospital website where users can find information about services, book appointments, and contact the hospital.</p>
+                <p>Technologies Used: React, Node.js, MongoDB</p>
+                <button onclick="showDetails('project-2')">View Details</button>
+                <div class="details" id="details-project-2">
+                    <p>Role: Implemented the frontend design and developed the appointment booking functionality.</p>
+                    <p>Challenges: Coordinated with team members to integrate frontend and backend seamlessly.</p>
+                    <div class="screenshots">
+                        <h4>Screenshots:</h4>
+                        <img src="screenshot3.png" alt="Screenshot 3">
+                        <img src="screenshot4.png" alt="Screenshot 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contact: <a href="tyronnekimani@gmail.com"></a> | LinkedIn: <a href="https://ke.linkedin.com/in/tyronne-kimani-601a48256" target="_blank">LinkedIn Profile</a> "</a></p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
